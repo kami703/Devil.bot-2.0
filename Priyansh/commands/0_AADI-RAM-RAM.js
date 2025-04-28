@@ -12,12 +12,12 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("Ram") ||
-     react.includes("Jay shree Ram") || react.includes("Jay shree ram") || react.includes("Jay Shree Ram") ||
-react.includes("jay shree ram") ||
-react.includes("JAY SHREE RAM")) {
+	if(react.includes("Allah") ||
+     react.includes("Allah Hu Akbar") || react.includes("Allah Hu Akbar") || react.includes("Allah Hu Akbar") ||
+react.includes("Allah hu Akbar") ||
+react.includes("ALLAH HU AKBAR")) {
 		var msg = {
-				body: `☟  ========== ☟ ==========  ☟                                                         ●===========================●                              𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝐀𝐚̃𝐃𝐢   𝐁𝐚𝐁𝐮__🥰  𝐌𝐀𝐈𝐍 𝐓𝐎 𝐒𝐇𝐑𝐄𝐄 𝐑𝐀𝐌 𝐉𝐈  𝐊𝐀 𝐃𝐄𝐄𝐖𝐀𝐍𝐀 𝐇𝐔 𝐏𝐘𝐀𝐑 𝐒𝐄 𝐁𝐎𝐋𝐎 𝐉𝐀𝐘 𝐒𝐇𝐑𝐄𝐄 𝐑𝐀𝐌 😍 ❤️`,attachment: fs.createReadStream(__dirname + `/noprefix/#ram_#ramlalaa_#ayodhya_#siyaram_in_2024___Ram_photos,_Shree_ram_photos,_Shri_ram_photo(360P).mp4`)
+				body: `☟  ========== ☟ ==========  ☟                                                         ●===========================●                              𝐎𝐰𝐧𝐞𝐫 ➻  ────  ⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭__🥰  𝐌𝐀𝐈𝐍 𝐓𝐎 𝐌𝐔𝐒𝐀𝐋𝐌𝐀𝐍 𝐇𝐔 𝐒𝐀𝐑𝐄 𝐌𝐈𝐋 𝐊𝐑 𝐁𝐎𝐋𝐎 𝐀𝐋𝐋𝐀𝐇 𝐇𝐔𝐀𝐊𝐁𝐀𝐑 😍 ❤️`,attachment: fs.createReadStream(__dirname + `/noprefix/#ram_#ramlalaa_#ayodhya_#siyaram_in_2024___Ram_photos,_Shree_ram_photos,_Shri_ram_photo(360P).mp4`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🥀", event.messageID, (err) => {}, true)
