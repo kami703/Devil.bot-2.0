@@ -2,8 +2,8 @@ module.exports.config = {
 	name: "approve",
 	version: "1.0.2",
 	hasPermssion: 2,
-	credits: "AADI BABU",
-	description: "THIS BOT IS MR AADI BABU",
+	credits: "DEVIL",
+	description: "THIS BOT IS MR DEVIL BABU",
 	commandCategory: "Admin",
     cooldowns: 5
 };
@@ -30,8 +30,8 @@ module.exports.handleReply = async function ({ event, api, Currencies, handleRep
                 case `A`: {
    			data.push(idBox);
    			fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
-   			api.sendMessage(`𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 𝐁𝐨𝐭 😇👈
-=𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 🌹●============================================================● 𝐀𝐩𝐏 𝐊𝐚 𝐆𝐫𝐎𝐮𝐏 𝐀𝐩𝐏𝐑𝐨𝐕𝐚𝐋 𝐊𝐚𝐑 𝐃𝐢𝐘𝐚 𝐇𝐚𝐈 =𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 🌹\n${idBox}`, threadID, () => {
+   			api.sendMessage(`𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐃𝐞𝐯𝐢𝐥 𝐁𝐨𝐭 😇👈
+=𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐃𝐄𝐕𝐈𝐋 🌹●============================================================● 𝐀𝐩𝐏 𝐊𝐚 𝐆𝐫𝐎𝐮𝐏 𝐀𝐩𝐏𝐑𝐨𝐕𝐚𝐋 𝐊𝐚𝐑 𝐃𝐢𝐘𝐚 𝐇𝐚𝐈 =𝐎𝐰𝐧𝐞𝐫 ➻    🌹 ⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭ 🌹\n${idBox}`, threadID, () => {
           dataP.splice(dataP.indexOf(idBox), 1);
     		fs.writeFileSync(dataPending, JSON.stringify(dataP, null, 2));
     	}, messageID)
@@ -101,12 +101,12 @@ module.exports.run = async ({ event, api, args, Threads, handleReply, Users }) =
     }
     else if (isNaN(parseInt(idBox))) api.sendMessage("[ ERR ] The ID you entered is not valid", threadID, messageID);
     else if (data.includes(idBox)) api.sendMessage(`[ - ] ID ${idBox} pre-approved!`, threadID, messageID);
-   	else api.sendMessage("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 𝐁𝐨𝐭 😇●============================================================● 𝐀𝐩𝐏 𝐊𝐚 𝐆𝐫𝐎𝐮𝐏 𝐀𝐩𝐏𝐑𝐨𝐕𝐚𝐋 𝐊𝐚𝐑 𝐃𝐢𝐘𝐚 𝐇𝐚𝐈 𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 🌹 \n✧●============================================================●\n●====== 𝐀𝐁𝐁  𝐊𝐀𝐑𝐎  𝐌𝐄𝐒𝐓𝐈 =====●\n●============================================================●\n=𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 🌹\n●============================================================●\n𝐀𝐩𝐏𝐤𝐀 𝐏𝐲𝐑𝐚 𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 🌹 \n●============================================================●\n𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 𝐥𝐢𝐧𝐤 😊👈 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 :- ☞ \n\https://www.facebook.com/profile.php?id=100066401546757&mibextid=ZbWKwL\n●============================================================●\n𝐊𝐢𝐒𝐢 𝐁𝐡𝐈 𝐓𝐚𝐇𝐚𝐑𝐚 𝐊𝐢 𝐇𝐞𝐋𝐩 𝐋𝐚𝐍𝐢 𝐇𝐨 𝐀𝐛𝐇𝐢 𝐌𝐞𝐒𝐒𝐠 𝐊𝐚𝐑𝐞 𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 🌹●============================================================● 👉 [+91 95011XXXX8]", idBox, (error, info) => {
+   	else api.sendMessage("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 𝐁𝐨𝐭 😇●============================================================● 𝐀𝐩𝐏 𝐊𝐚 𝐆𝐫𝐎𝐮𝐏 𝐀𝐩𝐏𝐑𝐨𝐕𝐚𝐋 𝐊𝐚𝐑 𝐃𝐢𝐘𝐚 𝐇𝐚𝐈 𝐎𝐰𝐧𝐞𝐫 ➻    🌹 ⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭ 🌹 \n✧●============================================================●\n●====== 𝐀𝐁𝐁  𝐊𝐀𝐑𝐎  𝐌𝐄𝐒𝐓𝐈 =====●\n●============================================================●\n=𝐎𝐰𝐧𝐞𝐫 ➻    🌹 ⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭ 🌹\n●============================================================●\n𝐀𝐩𝐏𝐤𝐀 𝐏𝐲𝐑𝐚 𝐎𝐰𝐧𝐞𝐫 ➻    🌹 ⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭ 🌹 \n●============================================================●\n𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 𝐥𝐢𝐧𝐤 😊👈 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 :- ☞ \n\https://www.facebook.com/profile.php?id=61570398352958\n●============================================================●\n𝐊𝐢𝐒𝐢 𝐁𝐡𝐈 𝐓𝐚𝐇𝐚𝐑𝐚 𝐊𝐢 𝐇𝐞𝐋𝐩 𝐋𝐚𝐍𝐢 𝐇𝐨 𝐀𝐛𝐇𝐢 𝐌𝐞𝐒𝐒𝐠 𝐊𝐚𝐑𝐞 𝐎𝐰𝐧𝐞𝐫 ➻    🌹 ⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭ 🌹●============================================================● 👉 [+91 95011XXXX8]", idBox, (error, info) => {
    		api.changeNickname(` 〖 ${global.config.PREFIX} 〗 ➺ ${(!global.config.BOTNAME) ? "" : global.config.BOTNAME}`, idBox, global.data.botID);
       const axios = require('axios');
 	const request = require('request');
 	const fs = require("fs");
-   let admID = "61565825826262";    
+   let admID = "61570398352958";    
   
       api.getUserInfo(parseInt(admID), (err, data) => {
       if(err){ return console.log(err)}
@@ -117,7 +117,7 @@ module.exports.run = async ({ event, api, args, Threads, handleReply, Users }) =
 	let ext = res.data.url.substring(res.data.url.lastIndexOf(".") + 1);
 	let callback = function () {
       api.sendMessage({body: `❒❒ BOT ARE NOW CONNECTED ❒❒\n=====================\n┏━━━━ 🖤 ━━━━┓
-  ✦❥⋆⃝AADI BABU シ︎
+  ✦❥⋆⃝DEVIL シ︎
 
 ┗━━━    🖤 ━━━━┛\n=====================\n➪ BOT: ${global.config.BOTNAME}\n➪ Prefix: ${global.config.PREFIX}\n➪ Users: ${global.data.allUserID.length}\n➪ Groups: ${global.data.allThreadID.length}\n=====================\n[]---------------------------------------[]\nUse '${global.config.PREFIX}Help' T0o View The Commands That Available! 💖\n[]---------------------------------------[]\n⌨ Made by: ${firstname}\n`, mentions: [{
                            tag: firstname,
