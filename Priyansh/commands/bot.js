@@ -102,7 +102,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     if ((event.body.toLowerCase() == "ashii") || (event.body.toLowerCase() == "ayehsa")) {
        return api.sendMessage("hye AYESHA ka name sunty hi kuch kuch hony lgta hai", threadID);
      };
-       if ((event.body.toLowerCase() == "Bot") || (event.body.toLowerCase() == "bot")) {
+       if ((event.body.toLowerCase() == "Bot kon hai yaha") || (event.body.toLowerCase() == "bot kon ho ap")) {
        return api.sendMessage("️ I'm ROBOT 🤖 2.0 like chitti Robot😂", threadID, messageID);
      };
      if ((event.body.toLowerCase() == "moto") || (event.body.toLowerCase() == "🥸")) {
@@ -541,14 +541,14 @@ if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
   var msg = {
     body: `💞👉${name} 💞👈
 
-❖•S━━━━━💞━━━━━A•❖,
+❖•K━━━━━💞━━━━━N•❖,
 
 
 ${rand}                                        
 
 𝗖𝗿𝗲𝗱𝗶𝘁𝘀:𒁍≛⃝⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭ ❥||ㅎ
 
-❖•S━━━━━💞━━━━━A•❖`
+❖•K━━━━━💞━━━━━N•❖`
   }
   return api.sendMessage(msg, threadID, messageID);
 };
