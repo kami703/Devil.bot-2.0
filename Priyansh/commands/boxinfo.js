@@ -4,7 +4,7 @@ module.exports.config = {
 	name: "groupinfo",
 	version: "1.0.0", 
 	hasPermssion: 1,
-	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+	credits: "⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭",
 	description: "View your box information",
 	commandCategory: "Box", 
 	usages: "groupinfo", 
