@@ -7,7 +7,7 @@ module.exports.config = {
   name: "info",
   version: "1.2.6",
   hasPermssion: 0,
-  credits: "Shaan",
+  credits: "Devil",
   description: "info bot owner",
   commandCategory: "Dành cho người dùng",
   hide:true,
@@ -66,7 +66,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
       "MintBot cân spam nhưng không có gì đáng để bạn spam."
     ];
     var link = [
-      "https://i.imgur.com/yOglHsY.jpeg"
+      "https://i.ibb.co/JFRtxBt7/FB-IMG-17452247456816575.jpg"
     ];
     
     var i = 1;
@@ -88,7 +88,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
             }
     var callback = () => 
       api.sendMessage({ body: `🌹🥀𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍FO 🥀🌹
-─────────────────\n♪♪♪♪♪♪♪『${namebot}』.♪♪♪♪♪♪♪\n─────────────────\n» Prefix system: ${PREFIX}\n» Prefix box: ${prefix}\n» Modules: ${commands.size}\n» Ping: ${Date.now() - dateNow}ms\n» Total users: ${global.data.allUserID.length} \n» Total threads: ${global.data.allThreadID.length} ─────────────────\n╭───────────╮\n🌻 𝙤𝙬𝙣𝙚𝙧 𝐒𝐇𝐀𝐀𝐍  🌻\n╰───────────╯ ╭────────────╮\n🥀 (𝐋𝐎𝐕𝐄𝐋𝐘 𝐁𝐎𝐘) 💞 \n╰────────────╯\n🍇𝐒𝐇𝐀𝐀𝐍🍇\n───────────────── https://www.facebook.com/100016828397863\n─────────────────`, attachment: fs.createReadStream(__dirname + "/cache/kensu.jpg"), }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/kensu.jpg"));
+─────────────────\n♪♪♪♪♪♪♪『${namebot}』.♪♪♪♪♪♪♪\n─────────────────\n» Prefix system: ${PREFIX}\n» Prefix box: ${prefix}\n» Modules: ${commands.size}\n» Ping: ${Date.now() - dateNow}ms\n» Total users: ${global.data.allUserID.length} \n» Total threads: ${global.data.allThreadID.length} ─────────────────\n╭───────────╮\n🌻 𝙤𝙬𝙣𝙚𝙧 𝐃𝐄𝐕𝐈𝐋  🌻\n╰───────────╯ ╭────────────╮\n🥀 (𝐋𝐎𝐕𝐄𝐋𝐘 𝐁𝐎𝐘) 💞 \n╰────────────╯\n⟬ 𝐆A͜͡𝐍𝐆𝐒𝐓E͜͡𝐑 ⟭⸙⟬ دیـﹻ۬ﹻۧ۬ﹻٰ۬ﹻٰ۬ﹻۧ۬ﹻ۬ﹻـول ⟭\n───────────────── https://www.facebook.com/61570398352958\n─────────────────`, attachment: fs.createReadStream(__dirname + "/cache/kensu.jpg"), }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/kensu.jpg"));
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/kensu.jpg")).on("close", () => callback()); 
   }
 };
