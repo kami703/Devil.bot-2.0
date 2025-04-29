@@ -102,7 +102,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     if ((event.body.toLowerCase() == "ashii") || (event.body.toLowerCase() == "ayehsa")) {
        return api.sendMessage("hye AYESHA ka name sunty hi kuch kuch hony lgta hai", threadID);
      };
-       if ((event.body.toLowerCase() == "Bot kon hai yaha") || (event.body.toLowerCase() == "bot kon ho ap")) {
+       if ((event.body.toLowerCase() == "Bot kon hai") || (event.body.toLowerCase() == "Bot tu kon hai")) {
        return api.sendMessage("️ I'm ROBOT 🤖 2.0 like chitti Robot😂", threadID, messageID);
      };
      if ((event.body.toLowerCase() == "moto") || (event.body.toLowerCase() == "🥸")) {
